@@ -41,6 +41,7 @@ function Principal() {
     );
   };
   const handleSearch = () => {
+    window.scrollTo(0, 0);
     setMessages(["Buscando información", "Procesando información"]);
     setLoading(true);
     document.body.style.overflow = "hidden";
